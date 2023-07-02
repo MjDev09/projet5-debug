@@ -25,29 +25,10 @@
 	<meta name="twitter:creator" content="Nina Carducci">
 	<meta name="twitter:image" content="./assets/images/Portrait-nina.webp">
 	<meta name="twitter:site:name" content="http://127.0.0.1:5501/index.html">
-	<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "@type": "Person",
-		  "name": "Nina Carducci",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"postalCode": "33200",
-			"addressLocality": "Bordeaux",
-			"addressCountry": "France"
-		  },
-		  "telephone": "+335 56 67 78 89",
-		  "openingHours": "Mo-Fr 10:00-19:00"
-		}
-	</script>
 </head>
 <body>
 <header class="top-header">
-	<h1 class="name" itemprop="name" itemscope itemtype="http://schema.org/Person">
-		<span itemprop="givenName">Nina</span>
-		<span itemprop="familyName">Carducci</span>
-	</h1>
+	<h1 class="name">Nina Carducci</h1>
 	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -93,7 +74,7 @@
 </section>
 <section id="about">
 	<div class="picture left">
-		<img src="./assets/images/Portrait-nina.webp" srcset="./assets/images/Portrait-nina-small.webp 250w, ./assets/images/Portrait-nina-small-medium.webp 350w, ./assets/images/Portrait-nina-medium.webp 450w, ./assets/images/Portrait-nina.webp 560w" sizes="(max-width:300px) 250px, (min-width:300px, max-width:400px) 350px, (min-width:400px, max-width:475px) 450px, 560px" alt="Photographie du buste de Nina Carducci vêtue d'un tee-shirt rayé blanc et noir et d'une salopette bleue">
+		<img src="./assets/images/Portrait-nina.webp" itemprop="image" srcset="./assets/images/Portrait-nina-small.webp 250w, ./assets/images/Portrait-nina-small-medium.webp 350w, ./assets/images/Portrait-nina-medium.webp 450w, ./assets/images/Portrait-nina.webp 560w" sizes="(max-width:300px) 250px, (min-width:300px, max-width:400px) 350px, (min-width:400px, max-width:475px) 450px, 560px" alt="Photographie du buste de Nina Carducci vêtue d'un tee-shirt rayé blanc et noir et d'une salopette bleue">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -101,25 +82,9 @@
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		<p>
-			<!--
-			<script type="application/ld+json">
-				{
-				  "@context": "http://schema.org",
-				  "@type": "Person",
-				  "name": "Nina Carducci",
-				  "address": {
-					"@type": "PostalAddress",
-					"streetAddress": "68 avenue Alsace-Lorraine",
-					"postalCode": "33200",
-					"addressLocality": "Bordeaux",
-					"addressCountry": "France"
-				  },
-				  "telephone": "+335 56 67 78 89",
-				  "openingHours": "Mo-Fr 10:00-19:00"
-				}
-				</script>-->
-			<div class="contact-data" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+			<div class="contact-data" itemprop="address" itemscope itemtype="https://schema.org/localbusiness">
+				<span itemprop="Name">Nina Carducci</span>
+				<span itemprop="Address">68 avenue Alsace-Lorraine</span>,
 				<span itemprop="postalCode">33200</span>
 				<span itemprop="addressLocality">Bordeaux</span>,
 				<span itemprop="addressCountry">France</span><br>
